@@ -50,7 +50,7 @@ div.links ul{
 div.links li{
     
     text-align: center;
-    width: 30.3%;
+    width: 33.3%;
     display: inline-block;
     
 }
@@ -105,6 +105,8 @@ div.links a{
     background: #338033;
     cursor: pointer;
 }
+
+
 
 
 
