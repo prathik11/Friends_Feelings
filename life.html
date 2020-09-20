@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Friends Feelings</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+</head>
+<body>
+    
+    <main class="main">
+        <header>
+            <h1>Friends Feelings</h1>
+        </header>
+        <div class="border"></div>
+        <div class="links">
+            <ul>
+                <li> <a href="index.html"><button>Friends</button></a> </li>
+                <li> <a href="love.html"><button>Love</button></a> </li>
+                <li> <a href="life.html"><button>Life</button></a> </li>
+                <!-- <li> <a href="movies.html"><button>Movies</button></a> </li>
+                <li> <a href="rose.html"><button>Rose</button></a> </li>
+                <li> <a href="orange.html"><button>Orange</button></a> </li>
+                <li> <a href="sad.html"><button>Sad</button></a> </li> -->
+            </ul>
+        </div>
+        <div class="gallery">
+            <a href="/images/life/life1.jpg" class="img">
+                <img src="/images/life/life1.jpg">
+            </a>
+            <a href="/images/life/life2.jpg" class="img">
+                <img src="/images/life/life2.jpg">
+            </a>
+            <a href="/images/life/life3.jpg" class="img">
+                <img src="/images/life/life3.jpg">
+            </a>
+            <a href="/images/life/life4.jpg" class="img">
+                <img src="/images/life/life4.jpg">
+            </a>
+            <a href="/images/life/life5.jpg" class="img">
+                <img src="/images/life/life5.jpg">
+            </a>
+            <a href="/images/life/life6.jpg" class="img">
+                <img src="/images/life/life6.jpg">
+            </a>
+            <a href="/images/life/life7.jpg" class="img">
+                <img src="/images/life/life7.jpg">
+            </a>
+            <a href="/images/life/life8.jpg" class="img">
+                <img src="/images/life/life8.jpg">
+            </a>
+        </div>
+        <div class="instagram">
+            Visit our page on <a href="https://www.instagram.com/friends.feelings/">Instagram</a>
+        </div>
+    </main>
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery:{
+                enabled: true
+                
+            }
+        })
+    </script>
+</body>

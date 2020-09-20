@@ -1,0 +1,150 @@
+*{ 
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    padding: 60px 0;
+    background: #f1f1f1;
+}
+
+
+header{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    
+    /* position: fixed;
+    background-color: greenyellow;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1; */
+}
+header h1{
+    color: #333;
+    font-family: montserrat,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+.border{
+    width: 500px;
+    height: 4px;
+    background: #333;
+    margin: 60px auto;
+}
+
+
+
+div.links{
+    
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+div.links ul{
+    white-space: nowrap;
+}
+div.links li{
+    
+    text-align: center;
+    width: 30.3%;
+    display: inline-block;
+    
+}
+div.links a{
+    text-decoration: none;
+    color: #5c4949;
+    
+}
+.links button{
+    
+    background: none;
+    color: #4b4b4b;
+    width: 240px;
+    height: 80px;
+    border: 1px solid #338033;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+.links button:focus{
+    outline: none;
+}
+.links button:before{
+    content:'';
+    display: block;
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5s;
+    filter: blur(30px);
+    transform: translateX(-130px) skewX(-15deg);
+}
+
+.links button:after{
+    content:'';
+    display: block;
+    position: absolute;
+    background: rgba(red, green, blue, alpha);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(30px);
+    transform: translate(-100px) scaleX(-15deg);
+}
+.links button:hover{
+    background: #338033;
+    cursor: pointer;
+}
+.links button:before{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .7s;
+}
+.links button:after{
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+}
+
+
+.main .gallery{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin: 60px 100px;
+}
+.main .img{ 
+    flex: 30%;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main .img img{
+    width: 100%;
+    transition: 0.4s;
+    image-resolution: 72;
+}
+
+.gallery .img:hover img{
+    transform: scale(1.1) rotate(3deg);
+}
+
+.instagram{
+    text-align: center;
+}
+
+@media screen and (max-width:850px){
+    .links button{
+        display: block;
+        width: 100%;
+    }
+}
