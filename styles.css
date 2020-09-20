@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 *{ 
   margin: 0; 
   padding: 0;
@@ -133,6 +135,18 @@ div.links a{
 
 .instagram{
     text-align: center;
+    font-size: 50px;
+    font-family: 'Sacramento', cursive;
+    
+}
+.instagram a{
+    
+    text-decoration: none;
+}
+
+.instagram a:hover{
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 @media screen and (max-width:850px){
