@@ -154,4 +154,40 @@ div.links a{
         display: block;
         width: 100%;
     }
+    .main .gallery{
+        
+        margin: 50px 60px;
+    }
+
+}
+@media screen and (max-width:650px){
+    .border{
+        width: 350px;
+    }
+    .main .gallery{
+        
+        margin: 40px 40px;
+    }
+    .instagram{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:450px){
+    .border{
+        width: 250px;
+        
+    }
+    .main .gallery{
+        margin: 10px 10px;
+    }
+}
+@media screen and (max-width:350px){
+    div.links li{
+        display: block;
+        margin: 5px auto;
+        
+    }
+    .main .gallery{
+        display: block;
+    }
 }
